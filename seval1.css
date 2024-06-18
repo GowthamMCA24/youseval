@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+header {
+    background-color: black;
+    height: 50px;
+}
+header a{
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+img{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.nav-bar{
+    background-color: aqua;
+}
+.nav-bar ul li{
+    display: block;
+    text-indent: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    font-size:23px;
+}  
+.nav-bar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.nav-bar ul li a:hover{
+    background-color: blueviolet;
+    padding: 10px 10px 10px 10px;
+    border-radius: 14px;
+}
+.image{
+       width:100%;
+       margin-top:0px;
+       position: static;
+       margin-left:px;
+}          
+main h2{
+    color: red;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+main p{
+    text-align: center;
+}
+.one{
+    margin: 20px 20px 20px 20px;
+    text-align: ;
+}
+.two{
+    margin:20px;
+}
+.three{
+    margin: 20px;
+}
+.image1{
+    width:100%;
+    position: static;
+}
+.image2{
+    position: static;
+    width: 200px;
+    margin-left: 20px;
+}
+.four{
+    margin-left: 20px;
+}
+.line1{
+    margin-top: 30px;
+    width:100px;
+    background-color:aqua;
+    height: 5px;
+    margin-left: 20px;
+}
+.ourservices{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top:px;
+}
+.ourservices h4{
+    margin-top: 10px;
+}
+.ourservices a{
+    text-decoration: none;
+}
+.line2{
+    margin-top: 30px;
+    width:100px;
+    background-color:blue;
+    height: 5px;
+    margin-left: 20px;
+}
+.company{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.company h4{
+    margin-top: 10px;
+}
+.company a{
+    text-decoration: none;
+}
+.line3{
+    margin-top: 30px;
+    width:100px;
+    background-color:blueviolet;
+    height: 5px;
+    margin-left: 20px;
+}
+.resources{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.resources h4{
+    margin-top: 10px;
+}
+.resources a{
+    text-decoration: none;
+}
+.line4{
+    margin-top: 30px;
+    width:100px;
+    background-color:rgb(208, 255, 0);
+    height: 5px;
+    margin-left: 20px;
+}
+.followus{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.whatsapp{
+    margin-top: 10px;
+    position: static;
+    margin-left: 10px;
+}
+.insta{
+    position: static;
+    margin-left: 10px;
+}
+.fb{
+    position: static;
+    margin-left: 10px;
+}
+.call{
+    position: static;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.linkedin{
+    position: static;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.utube{
+    position: static;
+    margin-left: 10px;
+}
+.twitter{
+    position: static;
+    margin-left: 10px;
+}
+@media only screen and (min-width:768px){
+    .nav-bar ul li{
+        display: inline-block;
+    }
+    .wrapper{
+        width: 
+    }
+    .two{
+        margin-top:-250px;
+        margin-right: 100px;
+        float: right;
+    }
+}
+@media only screen and (min-width:1000px){
+   .two{
+    float: none;
+    margin-left:400px;
+    margin-top: -320px;
+   }
+   .three{
+    margin-left:760px ;
+    margin-top: -410px;
+   }
+   .text h2{
+    margin-top: 250px;
+   }
+}
